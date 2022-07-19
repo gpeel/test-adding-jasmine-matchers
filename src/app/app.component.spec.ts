@@ -17,11 +17,11 @@ describe('AppComponent', () => {
   });
 
 
-  it('should render title', () => {
+  it('LABELS array', () => {
     const LABELS = [ 'what', 'is', 'this']
     expect(LABELS)
-      .toEqual(LABELS); // deep equal
-      // .toBeArray(LABELS);
+      // .toEqual(LABELS); // deep equal
+      .toBeArray(LABELS);
   });
 
 

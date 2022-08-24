@@ -3,9 +3,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
-    "types": [
-      "jasmine", "jasmine-expect"
-    ]
+    "types": ["jasmine", "jasmine-expect" ]
   },
   "files": [
     "src/test.ts",

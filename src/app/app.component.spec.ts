@@ -21,7 +21,8 @@ describe('AppComponent', () => {
     const LABELS = [ 'what', 'is', 'this']
     expect(LABELS)
       // .toEqual(LABELS); // deep equal
-      .toBeArray(LABELS);
+      // .toBeArray(); // OK now
+      .toBeArrayOfStrings(); // also OK as many other matchers, intellisense is now working
   });
 
 
